@@ -7,6 +7,7 @@
   <style>
     body {
       font-family: Arial, sans-serif;
+      background-color: pink;
       font-size: 16px;
       line-height: 1.5;
       color: #333333;
@@ -18,13 +19,17 @@
     }
     
     header {
-      background-color: #8ecbac;
-      padding: 20px;
+      background-color: #e5cadc;
+      padding: 5px;
+      margin-bottom: auto;
+      text-align: center;
     }
     
     h1 {
       font-size: 38px;
-      margin: 0;
+      margin: 5px;
+      padding: 10px;
+      text-align: center;
     }
     
     nav ul {
@@ -101,20 +106,24 @@
 <body>
   <header>
     <h1>EntreKids</h1>
-    <nav>
-      <ul>
-        <li><a href="index.html">Inicio</a></li>
-        <li><a href="about.html">Acerca de</a></li>
-        <li><a href="games.html">Juegos</a></li>
-        <li><a href="gallery.html">Galería</a></li>
-        <li><a href="contact.html">Contacto</a></li>
-      </ul>
-    </nav>
-  </header>
-  <hr>
-  <main>
-    <h1>Bienvenido al sitio web de juegos para niños</h1>
-    <p>Este sitio web está diseñado para ofrecer una gran variedad de juegos educativos para niños de todas las edades.</p>
+      <nav class="navbar navbar-expand-lg bg-body-tertiary">
+  <div class="container-fluid">
+    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+      <div class="navbar-nav">
+        <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+        <a class="nav-link" href="contact.html">Contacto</a>
+        <a class="nav-link" href="about.html">Acerca de</a>
+        <a class="nav-link" href="Mate.html">Juegos</a>
+        <a class="nav-link" href="gallery.html">Galeria</a>
+      </div>
+    </div>
+  </div>
+      </nav>
+      </header>
+      <hr>
+      <main>
+        <h1>Bienvenido al sitio web de juegos para niños</h1>
+      <p>Este sitio web está diseñado para ofrecer una gran variedad de juegos educativos para niños de todas las edades.</p>
     <img src="../multi.html/2439041.jpg" alt="Imagen del banner">
     <ul>
       <li><a href="Mate.html">Juegos de matemáticas</a></li>
@@ -124,8 +133,46 @@
     </ul>
   </main>
   <hr>
-  <footer>
-    <p>Derechos reservados © 2023</p>
-  </footer>
+<footer>
+  <p>Derechos reservados © 2023</p>
+</footer>
+</body>
+</html>
+<head>
+  <title>Barra de navegación personalizada</title>
+  <style>
+    /* Estilos para la barra de navegación */
+    .navbar {
+      background-color: #e2bade; /* Cambia el color de fondo según tus necesidades */
+    }
+
+    .navbar-nav .nav-link {
+      color: #000000; /* Cambia el color del texto según tus necesidades */
+      margin-right: 20px; /* Añade un margen derecho a los enlaces según tus necesidades */
+    }
+
+    .navbar-nav .nav-link:hover {
+      color: #dde5da; /* Cambia el color del texto en el hover según tus necesidades */
+    }
+  </style>
+</head>
+<body>
+  <nav class="navbar navbar-expand-lg bg-body-tertiary">
+    <div class="container-fluid">
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+        <div class="navbar-nav">
+          <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+          <a class="nav-link" href="contact.html">Contacto</a>
+          <a class="nav-link" href="about.html">Acerca de</a>
+          <a class="nav-link" href="Mate.html">Juegos</a>
+          <a class="nav-link" href="gallery.html">Galeria</a>
+          <a class="nav-link disabled">Disabled</a>
+        </div>
+      </div>
+    </div>
+  </nav>
 </body>
 </html>
