@@ -13,9 +13,10 @@ body {
     background-color: #f8f9fa;
     padding: 1rem;
   }
-  
+
   h1 {
     margin: 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
   }
   
   .nav {
@@ -35,7 +36,7 @@ body {
   }
   
   .nav-link {
-    color: var(--bs-white);
+    color: rgb(215, 215, 143);
     background-color: transparent;
     border: none;
     border-radius: 0.5rem;
@@ -45,8 +46,8 @@ body {
   
   .nav-link.active,
   .nav-link:hover {
-    color: var(--bs-primary);
-    background-color: var(--bs-white);
+    color: rgb(204, 204, 143);
+    background-color: white;
   }
   
   main {
@@ -54,15 +55,13 @@ body {
   }
   body {
     font-family: Arial, sans-serif;
-    background-color: pink;
+    background-color: #e5cadc;
     font-size: 16px;
     line-height: 1.5;
     color: #333333;
-    margin: 0;
-    padding: 0;
-    background-image: url(./multi.html/Puro-Cuento-ok.jpg);
+    margin: 0 auto;
     background-size: cover;
-  background-repeat: repeat;
+    background-repeat: repeat;
   }
   
   header {
