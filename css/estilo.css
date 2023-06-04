@@ -3,147 +3,7 @@
   margin: 0;
   padding: 0;
 }
-body {
-      font-family: Arial, sans-serif;
-      font-size: 16px;
-      line-height: 1.5;
-      color: #333333;
-      margin: 0;
-      padding: 0;
-    }
-    
-    header {
-      background-color: #deaeda;
-      padding: 20px;
-    }
-    
-    h1 {
-      font-size: 28px;
-      margin: 0;
-    }
-    
-    nav ul {
-      list-style: none;
-      margin: 0;
-      padding: 0;
-      display: flex;
-      justify-content: center;
-    }
-    
-    nav li {
-      margin: 0 10px;
-    }
-    
-    nav a {
-      color: #ffffff;
-      text-decoration: none;
-    }
-    
-    
-    main {
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      text-align: center;
-      padding: 20px;
-    }
-    
-    main h1 {
-      font-size: 36px;
-      margin-bottom: 10px;
-    }
-    
-    main p {
-      margin-bottom: 20px;
-    }
-    
-    main img {
-      width: 100%;
-      max-width: 600px;
-      height: auto;
-      margin-bottom: 20px;
-    }
-    
-    main ul {
-      list-style: none;
-      padding: 0;
-      display: flex;
-      flex-wrap: wrap;
-      justify-content: center;
-    }
-    
-    main li {
-      margin: 10px;
-    }
-    
-    main a {
-      display: block;
-      padding: 10px 20px;
-      background-color: #deaeda;
-      color: #ffffff;
-      text-decoration: none;
-      border-radius: 5px;
-    }
-    
-    footer {
-      background-color: #f8e0e0;
-      text-align: center;
-      padding: 10px;
-      font-size: 14px;
-    }
 
-  /* Estilos para el encabezado */
-  header {
-      background-color: #333;
-      color: #fff;
-      display: flex;
-      flex-direction:column;
-      justify-content: space-between;
-      align-items: center;
-      padding: 0 auto;
-  }
-  
-  /* Estilos para la navegación */
-  nav {
-      flex: 1;
-  }
-  
-  nav ul {
-      list-style: none;
-      margin: 0;
-      padding: 0;
-      display: flex;
-      flex-direction: row;
-      justify-content: flex-end;
-  }
-  
-  nav li {
-      margin: 0 10px;
-  }
-  
-  nav a {
-      color: #fff;
-      text-decoration: none;
-  }
-  
-  nav a:hover {
-      text-decoration: underline;
-  }
-  
-  /* Estilos para el contenido principal */
-  main {
-      max-width: 800px;
-      margin: 0 auto;
-      padding: 20px;
-  }
-  
-  /* Estilos para la imagen del banner */
-  main img {
-      display: block;
-      margin: 0 auto;
-      max-width: 100%;
-      height: auto;
-  }
   
   /* Estilos para la lista de juegos */
   main ul {
@@ -286,9 +146,9 @@ h2 {
 }
 
 .contenedor-imagenes img {
-  width: 600px;
-  height: 400px;
-  margin: 50px;
+  width: 800px;
+  height: 500px;
+  margin: 60px;
   margin-left: 10px;
   box-shadow: 0 2px 4px rgba(0,0,0,0.3);
 }
