@@ -1,0 +1,6 @@
+# Ignorar archivos generados por compiladores o herramientas
+*.map
+package-lock.json
+
+# Ignorar directorio de dependencias de Node.js
+node_modules/
