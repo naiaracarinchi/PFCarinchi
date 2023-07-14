@@ -8,52 +8,59 @@
   <meta name="keywords" content="EntreKids, galería de juegos, juegos educativos, estimulación cognitiva, cuentos, cuidado dental">
   <link rel="stylesheet" href="../style.css">
   <link rel="icon" href="../multimedia/favicon.ico">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
 </head>
 <body>
   <header>
     <h1>Galería</h1>
-    <ul class="nav">
-      <li class="nav-item" role="presentation">
-        <a class="nav-link active rounded-5" href="../index.html">Home</a>
-      </li>
-      <li class="nav-item" role="presentation">
-        <a class="nav-link rounded-5" href="../templates/gallery.html">Galeria</a>
-      </li>
-      <li class="nav-item" role="presentation">
-        <a class="nav-link rounded-5" href="../templates/contact.html">Contacto</a>
-      </li>
-      <li class="nav-item" role="presentation">
-        <a class="nav-link rounded-5" href="../templates/about.html">Acerca de</a>
-      </li>
-    </ul>   
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item active">
+            <a class="nav-link" href="/index.html">Inicio</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/templates/about.html">Acerca de</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/templates/gallery.html">Galeria</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/templates/contact.html">Contacto</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
   </header>
   <main>
     <div id="galeria">
       <div class="container">
         <div class="row">
           <div class="col-lg-6 col-md-6 col-sm-12">
-            <img src="../multimedia/Puro-Cuento-ok.jpg" class="img-fluid">
+            <img src="../multimedia/Puro-Cuento-ok.jpg" class="img-fluid" alt="Imagen de Puro Cuento">
           </div>
           <div class="col-lg-6 col-md-6 col-sm-12">
-            <img src="../multimedia/cuarentena-coronavirus-derechos-niños.jpg" class="img-fluid">
+            <img src="../multimedia/cuarentena-coronavirus-derechos-niños.jpg" class="img-fluid" alt="Imagen de cuarentena y coronavirus">
           </div>
         </div>
-
+    
         <div class="row">
           <div class="col-lg-6 col-md-6 col-sm-12">
-            <img src="../multimedia/niños-cepillarse-dientes.jpg" class="img-fluid">
+            <img src="../multimedia/niños-cepillarse-dientes.jpg" class="img-fluid" alt="Imagen de niños cepillándose los dientes">
           </div>
           <div class="col-lg-6 col-md-6 col-sm-12">
-            <img src="../multimedia/portada-juegos-estimulacion-cognitiva.jpg" class="img-fluid">
+            <img src="../multimedia/portada-juegos-estimulacion-cognitiva.jpg" class="img-fluid" alt="Imagen de portada de juegos de estimulación cognitiva">
           </div>
         </div>
       </div>
     </div>
-  </main>
+    
 
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
-</body>
-</html>
   <footer>
     <p>Derechos Reservados &copy; 2023</p>
   </footer>

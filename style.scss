@@ -21,6 +21,7 @@ header {
   padding: 10px;
   margin-bottom: auto;
   text-align: center;
+}
 
   h1 {
     margin: 0;
@@ -30,37 +31,6 @@ header {
     padding: 10px;
     text-align: center;
   }
-
-  .nav {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    background-color: $secondary-color;
-    padding: 0.5rem;
-    border-radius: 0.5rem;
-    box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075);
-
-    .nav-item {
-      list-style: none;
-
-      .nav-link {
-        color: $light-color;
-        background-color: transparent;
-        border: none;
-        border-radius: 0.5rem;
-        padding: 0.5rem 1rem;
-        font-size: small;
-
-        &.active,
-        &:hover {
-          color: rgb(204, 204, 143);
-          background-color: $light-color;
-          transition: background-color 0.3s ease;
-        }
-      }
-    }
-  }
-}
 
 main {
   display: flex;

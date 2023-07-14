@@ -6,26 +6,35 @@
   <title>Sobre nosotros - EntreKids</title>
   <meta name="description" content="Conoce más acerca de EntreKids, un sitio web dedicado a proporcionar juegos educativos para niños. Fomentamos el aprendizaje a través del juego y desarrollamos habilidades como la resolución de problemas, creatividad y cooperación.">
   <meta name="keywords" content="EntreKids, juegos para niños, juegos educativos, resolución de problemas, creatividad, cooperación">
-  <link rel="stylesheet" href="../style.css">
+  <link rel="stylesheet" href="/style.css">
   <link rel="icon" href="../multimedia/favicon.ico">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
 </head>
 <body class="Inicio-index">
   <header>
     <h1 id="NombreEmpresa">Sobre nosotros</h1>
-    <ul class="nav">
-      <li class="nav-item" role="presentation">
-        <a class="nav-link active rounded-5" href="../index.html">Home</a>
-      </li>
-      <li class="nav-item" role="presentation">
-        <a class="nav-link rounded-5" href="../templates/gallery.html">Galeria</a>
-      </li>
-      <li class="nav-item" role="presentation">
-        <a class="nav-link rounded-5" href="../templates/contact.html">Contacto</a>
-      </li>
-      <li class="nav-item" role="presentation">
-        <a class="nav-link rounded-5" href="../templates/about.html">Acerca de</a>
-      </li>
-    </ul>   
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <a class="navbar-brand" href="#">EntreKids</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item active">
+            <a class="nav-link" href="/index.html">Inicio</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/templates/about.html">Acerca de</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/templates/gallery.html">Galeria</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/templates/contact.html">Contacto</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
   </header>
   <main class="text-center">
     <section id="acerca-de">
@@ -33,17 +42,21 @@
       <p>Juegos para niños es un sitio web dedicado a proporcionar una amplia variedad de juegos educativos para niños de todas las edades. Nuestro objetivo principal es fomentar el aprendizaje a través del juego y ofrecer una experiencia divertida y emocionante para los niños.</p>
       <p>Creemos que los juegos pueden ser una herramienta valiosa para ayudar a los niños a desarrollar habilidades importantes, como la resolución de problemas, la creatividad y la cooperación. Por esta razón, nuestros juegos están diseñados con un enfoque en la educación y el aprendizaje.</p>
       <h3>Beneficios de nuestros juegos</h3>
-     <ul class="lineas">
+      <ul class="lineas">
         <li class="rectas">Ayudan a desarrollar habilidades de resolución de problemas y pensamiento crítico.</li>
         <li class="rectas">Fomentan la creatividad y la imaginación.</li>
         <li class="rectas">Mejoran las habilidades motoras y de coordinación.</li>
         <li class="rectas">Promueven la cooperación y el trabajo en equipo.</li>
         <li class="rectas">Desarrollan habilidades de comunicación y vocabulario.</li>
-     </ul>
+      </ul>
     </section>
   </main>
   <footer>
     <p>Derechos reservados © 2023 Juegos para niños</p>
   </footer>
+
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 </body>
 </html>
+ 
